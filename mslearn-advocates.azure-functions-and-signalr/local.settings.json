@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "xxx",
+    "AzureCosmosDBConnectionString": "xxx",
+    "AzureCosmosDBMasterKey": "xxx",
+    "AzureSignalRConnectionString": "xxxx",
+    "FUNCTIONS_WORKER_RUNTIME": "node"
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*"
+  }
+}

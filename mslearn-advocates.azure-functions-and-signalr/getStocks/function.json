@@ -1,0 +1,26 @@
+{
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "authLevel": "anonymous",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "in",
+      "name": "stocks",
+      "ConnectionStringSetting": "msl-sigr-cosmos-8fe5ffc67e_DOCUMENTDB",
+      "databaseName": "stocksdb",
+      "collectionName": "stocks"
+    }
+  ]
+}
